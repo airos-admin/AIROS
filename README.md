@@ -101,3 +101,17 @@ contact@avyon.net
 
 **License:** Creative Commons Attribution 4.0 International (CC BY 4.0)  
 See LICENSE file for details.
+
+
+---
+
+## 🛠️ Framework Implementation Architecture
+
+AIROS is organized into a minimalist Core and industry-specific technical execution blueprints:
+
+*   [**The Frozen Core (v0.1)**](./core/frozen-core-v0.1.md) — The 10 unnegotiable foundational principles.
+*   [**Healthcare Extension (WG-Healthcare)**](./industry-extensions/healthcare/README.md) — Controls for medical diagnostics and clinical safety applications.
+*   [**Finance Extension (WG-Finance)**](./industry-extensions/finance/README.md) — Controls for algorithmic risk modeling and automated asset allocation.
+*   [**Legal Extension (WG-Legal)**](./industry-extensions/legal/README.md) — Controls for data privacy preservation and artifact validation layers.
+
+To contribute to a specific industry framework, please read our [**Contributing Guide**](./CONTRIBUTING.md) and review our open RFC issues.
