@@ -1,0 +1,20 @@
+{
+  "$schema": "https://airos.org/schemas/v0.1/failure-telemetry.json",
+  "system_id": "airos-standard-node-alpha",
+  "timestamp": "2026-06-10T19:00:00Z",
+  "core_principle_alignment": [1, 5],
+  "execution_context": {
+    "declared_purpose": "automated_system_triage",
+    "risk_tier": "high_stakes"
+  },
+  "failure_state": {
+    "type": "confidence_score_drop",
+    "measured_metric": 0.62,
+    "minimum_threshold": 0.85
+  },
+  "corrective_action": {
+    "silent_fail_triggered": true,
+    "human_override_alert_sent": true,
+    "alert_destination": "telemetry-router-id"
+  }
+}
